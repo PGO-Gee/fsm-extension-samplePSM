@@ -1,7 +1,7 @@
 require('dotenv').config();
 const path = require('path');
 
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 7000;
 const {
   SECRET_KEY
 } = process.env;
